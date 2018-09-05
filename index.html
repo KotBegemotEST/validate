@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Zadanie</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <form id="form">
+              <div class="registr">
+                <h3>Форма регистрации</h3>
+                <p>Для успешной регистрации, пожалуйств вводите корректные личные данные, в дальнейшем они будут использоваться для вашей идетификации в случае потеря пароля </p>
+              </div>
+
+                <p class="text">Ваше Имя:</p>
+                <input name="name" class="form" type="text" id="FirstName" placeholder="Имя"><p class="output" id="name-error">  </p>
+                <br>
+                <br>
+                <p class="text">Ваша Фамилия: </p>
+                <input name="lname"  class="form" type="text"  id="LastName" placeholder="Фамилия"><p class="output" id="lname-error"></p>
+                <br>
+                <br>
+                <p class="text">Ваш телефон:</p>
+                <input name="phone"  class="form" type="tel" id="Phone" placeholder="Телефон"><p class="output" id="phone-error" required></p>
+                <br>
+                <br>
+                <p class="text">Ваш E-mail:</p>
+                <input name="email"  class="form" type="text" id="E-mail" placeholder="Е-маил"><p class="output" id="email-error"></p>
+                <br>
+                <br>
+                <p class="text">Ваш комментарий:</p>
+                <br>
+                <br>
+                <textarea  name="coment" class="form" cols="40" rows="5" id="Coment"> </textarea><p style="margin-top: 0px;" class="output" id="coment-error"></p>
+                <br>
+                <br>
+
+                <div class="centr">
+                  <a href="#" class="butt" id="Submit">Отправить</a>
+                </div>
+
+            </form>
+            <p id="message"></p>
+        </div>
+
+
+<script src="Scripts.js"></script>
+
+    </body>
+</html>
